@@ -1,0 +1,14 @@
+instalar git
+
+git clone https://github.com/ruivop/zxing.git
+git config --global user.name "Rui Paiva"
+git config --global user.email "ruivascoliveirapaiva@hotmail.com"
+
+criei os ficheiros
+
+git push origin master
+
+loguei num programa
+
+para fazer update do que está no github para o pc
+git pull
