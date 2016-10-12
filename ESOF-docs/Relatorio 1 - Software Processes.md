@@ -6,6 +6,8 @@
 
 Zxing("Zebra Crossing") é uma plataforma open-source de processamento de códigos de barras 1D/2D implementada em Java com portabilidade para : c++, iphone, aobjc, ationscript, jruby.
 
+![Zxing example](https://lh6.ggpht.com/Ax3eaBtJt0CVdY_lfFlGYg2RKdovXNVNzr91n_u22OKZu1WqIW-iQ44WR0Nmn5PkyKY=h900)
+
 O Zxing tem uma aplicação para Android, que descodifica imagens em tempo real, e vários Websites para codificção e descodificação de QR Codes. QR Codes são códigos de barras bidimensionais que são convertidos em texto.
 
 [Sean Owen](https://github.com/srowen) é o principal desenvolvedor.O desenvolvimento do projeto está já praticamente terminado sendo a principal atividade actualmente a correcção de bugs. Este já existe há 9 anos (desde 2007) e foi desenvolvido maioritarimente pelo esforço de duas pessoas, sendo Sean Owen o principal desenvolvedor, como já referido, tomando este também o papel de controlo de qualidade do projeto, controlando assim as submissões feitas.
