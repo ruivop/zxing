@@ -11,6 +11,8 @@ Código QR é um código de barras bidimensional. Esse código é convertido em 
 É muito utilizado em markting e em revistas. Em portugal também é muito utilizado a favor do turismo.
 O projeto visa dar ferramentas para a descofificação dessas qrcodes.
 
+O projeto está licenciado sob a licença Apache 2.0.
+
 ##Processso de Desenvolvimento
 
 ##Análise Crítica
