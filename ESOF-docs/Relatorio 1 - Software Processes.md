@@ -11,9 +11,8 @@ Código QR é um código de barras bidimensional. Esse código é convertido em 
 É muito utilizado em markting e em revistas. Em portugal também é muito utilizado a favor do turismo.
 O projeto visa dar ferramentas para a descofificação dessas qrcodes.
 
-Sean Owen é o principal desenvolvedor.
-The project has been around for about 9 years, and there is basically no development now.
-In the early days it was mostly a 2-person benevolent dictatorship, between Daniel and myself, playing gatekeeper to the project and doing collectively the majority of the development.
+Sean Owen é o principal desenvolvedor.O desenvolvimento do projeto está já praticamente terminado sendo a principal atividade actualmente a correcção de bugs. Este já existe há 9 anos e foi desenvolvido maioritarimente pelo esforço de duas pessoas, sendo Sean Owen o principal desenvolvedor, como já referido, tomando este também o papel de controlo de qualidade do projeto, controlando assim as submissões feitas.
+
 
 O projeto está licenciado sob a licença Apache 2.0.
 
