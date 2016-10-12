@@ -10,7 +10,7 @@ Zxing("Zebra Crossing") é uma plataforma open-source de processamento de códig
 
 O Zxing tem uma aplicação para Android, que descodifica imagens em tempo real, e vários Websites para codificção e descodificação de QR Codes. QR Codes são códigos de barras bidimensionais que são convertidos em texto.
 
-[Sean Owen](https://github.com/srowen) é o principal desenvolvedor.O desenvolvimento do projeto está já praticamente terminado sendo a principal atividade actualmente a correcção de bugs. Este já existe há 9 anos (desde 2007) e foi desenvolvido maioritarimente pelo esforço de duas pessoas, sendo Sean Owen o principal desenvolvedor, como já referido, tomando este também o papel de controlo de qualidade do projeto, controlando assim as submissões feitas.
+O desenvolvimento do projeto está já praticamente terminado sendo a principal atividade actualmente a correcção de bugs. Este já existe há 9 anos (desde 2007) e foi desenvolvido maioritarimente pelo esforço de duas pessoas, sendo [Sean Owen](https://github.com/srowen) o principal desenvolvedor, tomando este também o papel de controlo de qualidade do projeto, controlando assim as submissões feitas.
 
 Existe um [fórum](https://groups.google.com/forum/#!forum/zxing) com o objetivo de contactar os desenvolvedores. São lançadas [várias versões da plataforma](https://github.com/zxing/zxing/releases) apesar de agora menos regularmente.
 
