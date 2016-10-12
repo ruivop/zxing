@@ -16,12 +16,12 @@ Existe um [fórum](https://groups.google.com/forum/#!forum/zxing) com o objetivo
 
 O projeto está licenciado sob a [licença Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
-##Processso de Desenvolvimento
+##Processo de Desenvolvimento
 
 
 O modelo utilizado ao longo do desenvolvimento e ainda utilizado é o de um projeto simples e pequeno. O principal desenvolvedor é também o que mantém o projeto, ou seja, torna possível a distribuição da aplicação assim como organiza e adiciona novo código que tanto pode adicionar novas funcionalidades como correcções ao código já existente. Seguindo o modelo simples já referido, não se viu necessário recorrer ao uso de branches e todos os pushes são diretamente feitos para master.
 
-Recorre-se ao uso de automação de testes de maneira a poupar tempo e não repetir várias vezes a mesma tarefa. Um dos pontos principais no desenvolvimento deste projeto é o recurso a continuous integration (CI), ou seja, juntar várias vezes as cópias funcionais de diferentes pessoas para uma principal que irá conter todas as mudanças, tudo isto feito suficientes vezes quanto necessárias até num mesmo dia. Os testes automados contribuem para essa prática. Assim, há sempre uma versão da aplicação atualizada pronta a ser utilizada com o que foi adicionado recentemente, sendo assim criado código robusto que facilita integração.
+Recorre-se ao uso de automação de testes de maneira a poupar tempo e não repetir várias vezes a mesma tarefa. Um dos pontos principais no desenvolvimento deste projeto é o recurso a continuous integration (CI), ou seja, juntar várias vezes as cópias funcionais de diferentes pessoas para uma principal que irá conter todas as mudanças, tudo isto feito suficientes vezes quanto necessárias até num mesmo dia. Os testes automados contribuem para essa prática. Assim, há sempre uma versão da aplicação atualizada pronta a ser utilizada com o que foi adicionado recentemente, sendo assim criado código robusto que facilita integração. O projeto tomou este caminho maioritarimente pela razão que o desenvolvedor não achou necessário recorrer a métodos mais complexos e, no início do desenvolvimeto do projeto, ferramentas como github, git e maven não estavam avançadas de maneira satisfatória, o que dificultava a colaboração entre pessoas.
 
 ##Análise Crítica
 
