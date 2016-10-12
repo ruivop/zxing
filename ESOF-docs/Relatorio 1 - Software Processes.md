@@ -19,9 +19,8 @@ O projeto está licenciado sob a [licença Apache 2.0](http://www.apache.org/lic
 ##Processso de Desenvolvimento
 
 Processo de desenvolvimento
-The model is still that of a simple, small project: I am effectively the only maintainer, I push straight to master, no release branches. There is automated testing, CI, builds, etc.
-The reason it's not more elaborate is just that it never seemed like something more complex was needed.
-I suppose that, in 2007, workflow tools like Github, git or even Maven weren't around or nearly as advanced, so it was somewhat harder to collaborate.
+O modelo utilizado ao longo do desenvolvimento e ainda utilizado é o de um projeto simples e pequeno. O principal desenvolvedor é também o que mantém o projeto, ou seja, torna possível a distribuição da aplicação assim como organiza e adiciona novo código que tanto pode adicionar novas funcionalidades como correcções ao código já existente. Seguindo o modelo simples já referido, não se viu necessário recorrer ao uso de branches e todos os pushes são diretamente feitos para master.
+Recorre-se ao uso de automação de testes de maneira a poupar tempo e não repetir várias vezes a mesma tarefa. Um dos pontos principais no desenvolvimento deste projeto é o recurso a continuous integration (CI), ou seja, juntar várias vezes as cópias funcionais de diferentes pessoas para uma principal que irá conter todas as mudanças, tudo isto feito suficientes vezes quanto necessárias até num mesmo dia. Os testes automados contribuem para essa prática. Assim, há sempre uma versão da aplicação atualizada pronta a ser utilizada com o que foi adicionado recentemente, sendo assim criado código robusto que facilita integração.
 
 ##Análise Crítica
 
