@@ -1,1 +1,1 @@
-Aui deeve ser postos os relatorios de ESOF
+Directório com os relatórios realizados durante a unidade curricular de ESOF.
