@@ -34,14 +34,14 @@ Por outro lado, o projeto é já **antigo e está pouco ativo**, portanto não t
 
 ###Alternativas
 
-O facto de este projecto, desde o ínicio,ter sido mantido e melhorado regularmente apenas por duas pessoas e não ser muito extenso, fez com que não sofresse de problemas que outros projectos teriam de resolver, como por exemplo problemas de comunicação entre elementos da equipa e uma grande acumulação de erros não tratados.
+O facto de este projeto, desde o ínicio,ter sido mantido e melhorado regularmente apenas por duas pessoas e não ser muito extenso, fez com que não sofresse de problemas que outros projetos teriam de resolver, como por exemplo problemas de comunicação entre elementos da equipa e uma grande acumulação de erros não tratados.
 
-No entanto a utilização do modelo de **desenvolvimento e entrega incremental** permitiria determinar mais facilmente prioridades na melhoria do software e ter mais feedback no que já foi feito, algo fulcral pois a dimensão da equipa traz dificuldades em analisar com eficiência todas as carateristicas do projecto. 
-De facto os criadores do projecto adoptaram uma estratégia semelhante, pedindo aos utilizadores da plataforma para discutirem qualquer dúvida ou bug encontrado num fórum específico e têem feito pequenos updates no projecto mediante o comentado nesse fórum.
+No entanto a utilização do modelo de **desenvolvimento e entrega incremental** permitiria determinar mais facilmente prioridades na melhoria do software e ter mais feedback no que já foi feito, algo fulcral pois a dimensão da equipa traz dificuldades em analisar com eficiência todas as caraterísticas do projeto. 
+De facto os criadores do projeto adoptaram uma estratégia semelhante, pedindo aos utilizadores da plataforma para discutirem qualquer dúvida ou bug encontrado num fórum específico e têm feito pequenos updates no projeto mediante o comentado nesse fórum.
 
-Também seria possível a utilização do **modelo em cascata** que permitiria uma boa partição de cada fase do projecto mas este modelo iria falahr em dois aspectos fulcrais: poderia ser demasiado inflexivel perante as sugestões dos utilizadores, algo que os que se encontram neste momento a desenvolver e manter o projecto têem muito em conta, e a dimensão da equipa é pequena o suficiente para ser fácil organizar o trabalho necessário sem particionar o projecto.
+Também seria possível a utilização do **modelo em cascata** que permitiria uma boa partição de cada fase do projeto mas este modelo iria falhar em dois aspetos fulcrais: poderia ser demasiado inflexível perante as sugestões dos utilizadores, algo que os programadores que se encontram neste momento a desenvolver e manter o projeto têm muito em conta, e a dimensão da equipa é pequena o suficiente para ser fácil organizar o trabalho necessário sem particionar o projeto.
 
-Finalmente o modelo de **Espiral de Boehm** seria uma boa alternativa para organizar o projecto e assegurar a continua evolução da plataforma, sem aumentar os riscos. No entanto como o projecto está na sua fase final achamos que a utilização de um modelo tão complexo é desnecessária.
+Finalmente o modelo de **Espiral de Boehm** seria uma boa alternativa para organizar o projeto e assegurar a continua evolução da plataforma, sem aumentar os riscos. No entanto como o projeto está na sua fase final achamos que a utilização de um modelo tão complexo é desnecessária.
 
 ##Contribuição do Grupo
 * [José Costa](https://github.com/zecst19) 25%
