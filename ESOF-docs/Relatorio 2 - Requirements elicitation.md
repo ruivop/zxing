@@ -1,11 +1,11 @@
 # Elicitação de Requisitos
 
 ## Requisitos
-O processo de gestão de requisitos neste projeto é, atualmente, apenas a manutenção de código.  Os novos módulos, que foram, ao longo do tempo, sendo adicionados ao projeto, eram “plugins” e quase todas as propostas eram aceites, não havendo para isso um processo formal.
+O processo de gestão de requisitos neste projeto foca-se, atualmente, apenas na manutenção de código.  Os novos módulos, que foram, ao longo do tempo, sendo adicionados ao projeto, eram *“plugins”* e quase todas as propostas eram aceites, não havendo para isso um processo formal.
 
-O feedback dos utilizadores foi, numa fase inicial, moderadamente importante para o desenvolvimento do projeto, no entanto, este foi diminuindo nos passados anos, visto que foi dada uma maior prioridade á manutenção de código. Este feed back era obtido principalmente no fórum e em comentários em diversos sites e plataformas, não sendo concebido, para este efeito, qualquer tipo de entrevistas ou documentos formais.
+O *feedback* dos utilizadores foi, numa fase inicial, moderadamente importante para o desenvolvimento do projeto, no entanto, este foi diminuindo nos passados anos, visto que foi dada uma maior prioridade á manutenção de código. Este *feedback* era obtido, principalmente, no fórum e em comentários em diversos sites e plataformas, não sendo concebido, para este efeito, qualquer tipo de entrevistas ou documentos formais.
 
-Uma nova feature que se pretenda desenvolver deve ser reportada no fórum, para que a comunidade fique a par do desenvolvimento paralelo do projeto. Para a adição de novas features, deve ser feito um fork do projeto, o seu desenvolvimento nesse repositório e um posterior pull request para o ramo principal (único ativo). Se assim o entender, o responsável pode aceitar o novo código.
+Uma nova *feature* que se pretenda desenvolver deve ser reportada no fórum, para que a comunidade fique a par do desenvolvimento paralelo do projeto. Para a adição de novas *features*, deve ser feito um *fork* do projeto, o seu desenvolvimento nesse repositório e um posterior *pull request* para o ramo principal (único ativo). Se assim o entender, o responsável pode aceitar o novo código.
 
 
 
