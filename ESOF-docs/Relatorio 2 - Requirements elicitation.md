@@ -2,7 +2,16 @@
 
 ## Requisitos
 
+
+
 ## Requisitos e Características Específicos
+
+###Requisitos Funcionais
+O projecto *zxing* foi desenvolvido, desde o início, para que pudesse executar 2 funções principais: ler a informação existente em códigos QR de uma e duas dimensões, e construir códigos QR a partir de informação fornecida. 
+
+
+### Requisitos não funcionais
+####Requisitos de Qualidade
 
 ## Casos de Uso
 
