@@ -9,6 +9,7 @@
 - [Casos de Uso](#casos-de-uso)
 	- [Barcode Scanner](#barcode-scanner)
 	- [QR Decoder](#qr-decoder)
+	- [QR Code Generator](#qr-code-generator)
 	
 - [Modelo de Domínio](#modelo-de-domínio)
 - [Contribuição do Grupo](#contribuição-do-grupo)
@@ -76,7 +77,7 @@ O contexto em que este software opera segue o modelo apresentado a seguir. A cla
 ![zxing Domain Model](/ESOF-docs/resources/domainmodel.png)
 
 ## Contribuição do Grupo
-* [José Costa](https://github.com/zecst19) 
-* [Nuno Freitas](https://github.com/nunofreitas96) 
-* [Rui Paiva](https://github.com/ruivop) 
-* [Tiago Silva](https://github.com/tadias) 
+* [José Costa](https://github.com/zecst19): 25%
+* [Nuno Freitas](https://github.com/nunofreitas96): 25%
+* [Rui Paiva](https://github.com/ruivop): 25% 
+* [Tiago Silva](https://github.com/tadias): 25% 
