@@ -12,6 +12,23 @@ O projecto *zxing* foi desenvolvido, desde o início, para que pudesse executar 
 
 ### Requisitos não funcionais
 ####Requisitos de Qualidade
+**Eficiência de Performance**
+Foi de grande importância durante o desenvolvimento do projecto que qualquer software que utilizasse a biblioteca conseguisse descodificar e criar um código QR com rapides.
+
+**Consistência**
+O projecto foi desenvolvido de modo a garantir que a partir de todas as plataformas utilizadas funcionasse da mesma forma e eficientemente.
+
+**Compatibilidade**
+Desde o ínicio da criação da biblioteca que esteve em conta o seu funcionamento em várias plataformas.
+
+**Capacidade de Manutenção**
+Apesar de o projecto não ter tido nas suas origens nenhum plano para assegurar a manutenção da biblioteca, a atenção à comunicação e tamanho relativo do projecto dos utilizadores e estado publico do código permitiu que fosse atualizado sem grandes complicações.
+
+**Portabilidade**
+Não houve nenhuma preocupação pelos criadores da biblioteca em
+
+**Segurança**
+Todos os níveis do software são completamente públicos, sem ter havido nenhuma preocupação em proteger o acesso ao código.
 
 ## Casos de Uso
 
@@ -35,9 +52,6 @@ Ao inserir um URL ou fazer upload de uma imagem de um código QR, e submetendo-o
 Com o site gerador de Códigos, temos de selecionar que tipo de conteúdo queremos codificar (informação de contacto, endereço de e-mail, evento no calendário, localização GPS, nº de telefone, SMS, texto, URL ou informações de rede Wifi), o tamanho do código (pequeno, médio ou grande), o fator de correção de erros ( a correção de erros corresponde à habilidade do código de sofrer "dano", ou seja, a sua capacidade de ser analisado manter-se mesmo que parte seja obstruido ou removido, e varia entre L, M, Q e H) e *character encoding* (pode ser UTF-8, ISO-8859-1 e Shift_JIS). 
 
 ## Modelo de Domínio
-O contexto em que este software opera segue o modelo apresentado a seguir. A classe conceptual *Hints* refere-se a tudo a que o descodificador usa para identificar o código introduzido de uma maneira mais rápida, uma vez que podem ser aceites vários formatos.
-
-![zxing Domain Model](/ESOF-docs/resources/domainmodel.png)
 
 ## Contribuição do Grupo
 * [José Costa](https://github.com/zecst19) 
