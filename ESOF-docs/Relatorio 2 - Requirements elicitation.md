@@ -13,7 +13,7 @@ O projecto *zxing* foi desenvolvido, desde o início, para que pudesse executar 
 ### Requisitos não funcionais
 ####Requisitos de Qualidade
 **Eficiência de Performance**
-Foi de grande importância durante o desenvolvimento do projecto que qualquer software que utilizasse a biblioteca conseguisse descodificar e criar um código QR com rapides.
+Foi de grande importância durante o desenvolvimento do projecto que qualquer software que utilizasse a biblioteca conseguisse descodificar e criar um código QR com rapidez.
 
 **Consistência**
 O projecto foi desenvolvido de modo a garantir que a partir de todas as plataformas utilizadas funcionasse da mesma forma e eficientemente.
