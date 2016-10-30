@@ -6,6 +6,10 @@
 
 ## Casos de Uso
 
+O projeto *zxing* consiste, maioritariamente, em 3 plataformas. A app para Android, um site de descodificação de códigos QR e outro de codificação. O diagrama seguinte mostra os principais casos de uso da aplicação para Android "Barcode Scanner"
+![zxing Barcode Scanner Use Cases](/ESOF-docs/resources/usecasediagram-executable.png)
+
+
 ## Modelo de Domínio
 
 ## Contribuição do Grupo
