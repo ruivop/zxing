@@ -50,6 +50,10 @@ Com o site gerador de Códigos, temos de selecionar que tipo de conteúdo querem
 
 ## Modelo de Domínio
 
+O contexto em que este software opera segue o modelo apresentado a seguir. A classe conceptual *Hints* refere-se a tudo a que o descodificador usa para identificar o código introduzido de uma maneira mais rápida, uma vez que podem ser aceites vários formatos.
+
+![zxing Domain Model](/ESOF-docs/resources/domainmodel.png)
+
 ## Contribuição do Grupo
 * [José Costa](https://github.com/zecst19) 
 * [Nuno Freitas](https://github.com/nunofreitas96) 
