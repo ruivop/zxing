@@ -35,6 +35,9 @@ Ao inserir um URL ou fazer upload de uma imagem de um código QR, e submetendo-o
 Com o site gerador de Códigos, temos de selecionar que tipo de conteúdo queremos codificar (informação de contacto, endereço de e-mail, evento no calendário, localização GPS, nº de telefone, SMS, texto, URL ou informações de rede Wifi), o tamanho do código (pequeno, médio ou grande), o fator de correção de erros ( a correção de erros corresponde à habilidade do código de sofrer "dano", ou seja, a sua capacidade de ser analisado manter-se mesmo que parte seja obstruido ou removido, e varia entre L, M, Q e H) e *character encoding* (pode ser UTF-8, ISO-8859-1 e Shift_JIS). 
 
 ## Modelo de Domínio
+O contexto em que este software opera segue o modelo apresentado a seguir. A classe conceptual *Hints* refere-se a tudo a que o descodificador usa para identificar o código introduzido de uma maneira mais rápida, uma vez que podem ser aceites vários formatos.
+
+![zxing Domain Model](/ESOF-docs/resources/domainmodel.png)
 
 ## Contribuição do Grupo
 * [José Costa](https://github.com/zecst19) 
