@@ -4,11 +4,11 @@
 - [Requisitos](#requisitos)
 - [Requisitos e Características Específicos](#requisitos-e-características-específicos)
 - [Requisitos do Sistema](#requisitos-do-sistema)
-  - [Requisitos não funcionais](#requisitos-não-funcionais)
 	- [Requisitos Funcionais](#requisitos-funcionais)
+	- [Requisitos não funcionais](#requisitos-não-funcionais)
+
 - [Casos de Uso](#casos-de-uso)
-		- [Barcode Scanner](#barcode-scanner)
-	- [Casos de uso](#casos-de-uso)
+	- [Barcode Scanner](#barcode-scanner)
 - [Modelo de Domínio](#modelo-de-domínio)
 - [Contribuição do Grupo](#contribuição-do-grupo)
 
