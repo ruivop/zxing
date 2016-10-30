@@ -3,7 +3,6 @@
 **Conteúdos**
 - [Requisitos](#requisitos)
 - [Requisitos e Características Específicos](#requisitos-e-características-específicos)
-- [Requisitos do Sistema](#requisitos-do-sistema)
 	- [Requisitos Funcionais](#requisitos-funcionais)
 	- [Requisitos não funcionais](#requisitos-não-funcionais)
 
