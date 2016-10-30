@@ -24,9 +24,6 @@ Desde o ínicio da criação da biblioteca que esteve em conta o seu funcionamen
 **Capacidade de Manutenção**
 Apesar de o projecto não ter tido nas suas origens nenhum plano para assegurar a manutenção da biblioteca, a atenção à comunicação e tamanho relativo do projecto dos utilizadores e estado publico do código permitiu que fosse atualizado sem grandes complicações.
 
-**Portabilidade**
-Não houve nenhuma preocupação pelos criadores da biblioteca em
-
 **Segurança**
 Todos os níveis do software são completamente públicos, sem ter havido nenhuma preocupação em proteger o acesso ao código.
 
