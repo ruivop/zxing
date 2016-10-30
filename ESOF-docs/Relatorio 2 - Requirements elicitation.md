@@ -18,6 +18,11 @@ Com a opção Compartilhar o utilizador pode partilhar, através de um código Q
 
 ![zxing Descodification Use Cases](/ESOF-docs/resources/decoder.png)
 
+
+Ao inserir um URL ou fazer upload de uma imagem de um código QR, e submetendo-o, são-nos dadas ao informações mais técnicas. Ao contrário da app que nos permite interagir com o resultado, este descodificador dá-nos informações como: o formato do código, ou o texto ou os bytes em RAW ou o tipo de informação (nº de telefone, e-mail, URL).
+
+![zxing Codification Use Cases](/ESOF-docs/resources/code generator new.png)
+
 ## Modelo de Domínio
 
 ## Contribuição do Grupo
