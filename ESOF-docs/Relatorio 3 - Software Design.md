@@ -18,6 +18,8 @@
 
 ##Vista de Processo
 
+![zxing Process View Diagram](/ESOF-docs/resources/processview.png)
+
 ##Contribuição do Grupo
 * [José Costa](https://github.com/zecst19):
 * [Nuno Freitas](https://github.com/nunofreitas96): 
