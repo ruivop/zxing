@@ -60,6 +60,10 @@ A interacção principal é feita entre a câmara do dispositivo e o descodifica
 
 ##Vista Física
 
+![zxing Fisical View Diagram](/ESOF-docs/resources/fisical%20view.png)
+
+O programa zxing pode ser executado num pc ou num dispositivo android. Se utilizado num pc através do web browser o programa vai utilizar os artefactos da package *zxingorg* que acedem aos ficheiros da package *core* para fazer a descodificação do código de barras. Se for utilizado no android este vai utilizar a package *android*, que tal como zxingorg acede à package *core* para efetuar a descodificação. 
+
 ##Vista de Processo
 
 Através do diagrama de atividades da App para Android é possível perceber a sequência de processos e as suas interações.
