@@ -9,6 +9,12 @@
 - [Contribuição do Grupo](#contribuição-do-grupo)
 
 ##Introdução
+  Arquitetura de software é forma como os componentes de um projeto estão organizados: as suas relações mutuas e com o ambiente, e os princípios que regem o seu desenvolvimento e evolução. Assim, com este relatório, é possível saber como o projeto está organizado, a alto nível, tendo uma noção bastante concreta do projeto. Para melhor compreensão, utilizamos diagramas UML.  Utilizamos também o modelo 4+1, que permite uma criar uma imagem completa do projeto. De mencionar também que a elicitação de requerimentos (vista “+1”), já foi feita no relatório anterior.
+  
+Relativamente ao padrão de desenho utilizado, apesar de não haver informação concreta acerca deste e depois de uma análise ao código, pensamos que foi utilizado o MVC. Este parece-nos o mais adequando, visto haver múltiplas formas de interagir com os dados e há possivelmente interações futuras e que não são conhecidas (novos códigos de barras). Este é um assunto visto com mais profundidade na vista lógica.
+
+Por fim, neste relatório focamo-nos na aplicação android, visto ser esta a mais acessível a futuras alterações e a que não envolve tantos conhecimentos técnicos acerca de códigos de barras.
+
 
 ##Vista Lógica
 
