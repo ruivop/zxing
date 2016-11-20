@@ -14,7 +14,7 @@
 
 ##Vista de Desenvolvimento
 
-![zxing Implementation View Diagram](/ESOF-docs/resources/implementationview.png)
+![zxing Implementation View Diagram](/ESOF-docs/resources/implementation_view.png)
 
 
 A interacção principal é feita entre a câmera do dispositivo e o descodificador que interpreta o que recebeu da câmera. Para certos tipos de códigos, como por exemplo um código de barras de um produto, é necessária obter dados de produtos que são provenientes da *Google Product Search* ou *Web Search*, e que por isso não são mantidos na aplicação em si. Tendo em conta a simplicidade da aplicação não se recorre ao uso de camadas e tal parece uma abordagem correta visto o objetivo final dela, que é uma análise rápida e eficiente de uma imagem recebida que pode ser identificada como vários tipos de códigos diferentes. 
