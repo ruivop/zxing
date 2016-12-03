@@ -14,6 +14,16 @@
 
 ## Testabilidade do Software
 
+A Testabilidade do Software é o grau de suporto de testes, para um certo artefacto da aplicação, dado um certo contexto. Se a testabilidade de um artefacto é alta, então encontrar falhas no sistema (se este as tiver) através de testes é mais fácil.
+
+Testabilidade não é uma propriedade intrínseca de um artefacto de sofware e não pode ser medida diretamente. É sim uma propriedade extrínseca que resulta da interdependência do software a testar e dos objetivos do teste, dos métodos de teste, e dos recursos.
+
+Um grau mais baixo de testabilidade resulta num maior esforço por parte dos testes, e nalguns casos mais extremos a falta de testabilidade pode impossibilitar o teste de certas partes do software.
+
+O *zxing* utiliza vários casos de teste diferentes para cada tipo de código no seu arsenal de descodificação.
+
+A Testabilidade de componentes de software é determinada por fatores como:
+
 ### Controlabilidade
 
 A Controlabilidade corresponde à possibilidade de controlar o estado de uma componente sob teste. 
