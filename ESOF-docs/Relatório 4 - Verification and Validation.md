@@ -2,10 +2,13 @@
 
 **Conteúdos**
 - [Testabilidade do Software](#testabilidade-do-software)
+- [Estatísticas de Teste](#estatísticas-de-teste)
+- [Identificação de um Bug](#identificação-de-um-bug)
+- [Contribuição do Grupo](#contribuição-do-grupo)
 
 ## Testabilidade do Software
 
-## Estatísticas do Teste
+## Estatísticas de Teste
 
 ## Identificação de um Bug
 
