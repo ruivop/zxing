@@ -2,11 +2,24 @@
 
 **Conteúdos**
 - [Testabilidade do Software](#testabilidade-do-software)
+      - [Controlabilidade](#controlabilidade)
+      - [Observabilidade](#observabilidade)
+      - [Isolabilidade](#isolabilidade)
+      - [Separação de Responsabilidades](#separação-de-responsabilidades)
+      - [Compreensibilidade](#compreensibilidade)
+      - [Heterogeneidade](#heterogeneidade)      
 - [Estatísticas de Teste](#estatísticas-de-teste)
 - [Identificação de um Bug](#identificação-de-um-bug)
 - [Contribuição do Grupo](#contribuição-do-grupo)
 
 ## Testabilidade do Software
+
+### Controlabilidade
+### Observabilidade
+### Isolabilidade
+### Separação de Responsabilidades
+### Compreensibilidade
+### Heterogeneidade
 
 ## Estatísticas de Teste
 
