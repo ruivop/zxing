@@ -52,6 +52,11 @@ A Heterogeneidade determina o grau em que o uso de diversas tecnologias requer d
 
 ## Identificação de um Bug
 
+O bug em análise é o bug #649 listado nas *issues* do projeto *zxing*. O problema em questão surge quando se tenta codificar código ASCII de um *non printable character* em *code 128* (uma simbologia de códigos de barras de alta densidade), situação esta em que é lançada a esceção de caracter inválido, no entanto *code 128* suporta todos os caracteres ASCII.
+Após análise do bug, verificou-se que o problema é o seguinte: em ASCII, dentro dos *non printable characters*, a codificação apenas suporta o caracter do espaço (hex:20), e nao suporta os caracteres desde o 0 até ao 1F.
+
+
+
 ## Contribuição do Grupo
 * [José Costa](https://github.com/zecst19): 
 * [Nuno Freitas](https://github.com/nunofreitas96): 
