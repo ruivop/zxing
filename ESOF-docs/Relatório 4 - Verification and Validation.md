@@ -15,11 +15,28 @@
 ## Testabilidade do Software
 
 ### Controlabilidade
+
+A Controlabilidade corresponde à possibilidade de controlar o estado de uma componente sob teste. 
+
 ### Observabilidade
+
+A Observabilidade é a possibilidade de observar os resultados dos testes, quer estes sejam intermédios ou finais.
+
 ### Isolabilidade
+
+Isolabilidade é a possibilidade de uma componente ser testada isoladamente.
+
 ### Separação de Responsabilidades
+
+O grau de separação de responsabilidades das componentes sob teste incide sobre se estas têm uma única responsabilidade e se esta está bem definida.
+
 ### Compreensibilidade
+
+Compreensibilidade corresponde ao grau de legibilidade da componente sob teste, por clareza intrínseca ou documentação disponível.
+
 ### Heterogeneidade
+
+A Heterogeneidade determina o grau em que o uso de diversas tecnologias requer diversos casos de teste.
 
 ## Estatísticas de Teste
 
