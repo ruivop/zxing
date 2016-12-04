@@ -1,6 +1,7 @@
 # Verificação e Validação
 
 **Conteúdos**
+- [Introdução](#introdução)
 - [Testabilidade do Software](#testabilidade-do-software)
       - [Controlabilidade](#controlabilidade)
       - [Observabilidade](#observabilidade)
@@ -11,6 +12,10 @@
 - [Estatísticas de Teste](#estatísticas-de-teste)
 - [Identificação de um Bug](#identificação-de-um-bug)
 - [Contribuição do Grupo](#contribuição-do-grupo)
+
+## Introdução
+
+A verificação e validação de um projeto são etapas importantes na conceção de um software. A verificação é o processo que assegura que o projeto final está conforme foi especificado nos seus requerimentos. A validação, por outro lado, assegura através de testes que o produto final satisfaz o que é esperado que faça, no seu respetivo âmbito.
 
 ## Testabilidade do Software
 
@@ -26,19 +31,30 @@ A Testabilidade de componentes de software é determinada por fatores como:
 
 ### Controlabilidade
 
-A Controlabilidade corresponde à possibilidade de controlar o estado de uma componente sob teste. 
+A Controlabilidade corresponde à possibilidade de controlar o estado de uma componente sob teste.
+
+Neste projeto a controlabilidade (em módulos) é elevada, visto que cada módulo de descodificação não depende de outros que sejam alterados por esse input ao teste (imagem). No entanto, visto que estamos a falar de descodificar códigos gerados de formas diferentes por entidades diferentes, pode aferir-se que uma total controlabilidade é impossível, visto que o módulo deve ser capaz de descodificar todos os casos, não sendo possível testá-los todos. Mas, em geral, os testes permitem exercitar as capacidades totais de uma determinada módulo.
+      
+Em relação a cada componente (classe) em teste (CUT), a controlabilidade é extremamente pequena, visto apenas serem feitos teste de mais alto nível. Cada input (imagem) vai afetar vários componentes, assim não sendo possível saber se algum deles errou e em que caso, ou ainda se há erros em cadeia que originam num resultado correto. 
+
 
 ### Observabilidade
 
 A Observabilidade é a possibilidade de observar os resultados dos testes, quer estes sejam intermédios ou finais.
 
+A observabilidade, neste projeto, é média visto que com um determinado input não é possível saber com exatidão se a computação foi bem efetuada. Por exemplo se o input (uma imagem) for menos visível, um teste, apesar de ter feito a computação da imagem corretamente, pode dar um resultado negativo. No entanto, em todos os testes aos módulos há uma tolerância de erros (numero máximo/mínimo de descodificações bem/mal sucedidas de um conjunto de imagens). Assim, e apesar de não ser um resultado binário, dá um grau de certeza médio de que um determinado módulo está a funcionar corretamente.
+
 ### Isolabilidade
 
 Isolabilidade é a possibilidade de uma componente ser testada isoladamente.
 
+Consideramos que a isolabilidade dentro deste projeto é absoluta quando falamos de módulos diferentes, expetando aqueles que interagem com mais de que um módulo. No que concerne a componentes (de cada módulo), estas não são testadas, pelo que não é possível isola-las.  Ainda assim, há testes a componentes mais particulares e que não dependem de mais componentes, como é o caso de componentes de estorturas de dados ou funções de matemática, sendo essas totalmente isoláveis.
+
 ### Separação de Responsabilidades
 
 O grau de separação de responsabilidades das componentes sob teste incide sobre se estas têm uma única responsabilidade e se esta está bem definida.
+
+Pela análise do código pudemos concluir que cada componente tem um objetivo muito especifico. Dentro de cada módulo a estortura é muito semelhante havendo componentes para codificar, descodificar e detetar códigos de barras. Componentes gerais a todos os módulos têm também funções muito particulares e fáceis de serem testadas. Assim consideramos que a separação de responsabilidades foi concebida de forma correta, contribuindo para uma maior testabilidade e organização do projeto.
 
 ### Compreensibilidade
 
