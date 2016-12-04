@@ -42,11 +42,11 @@ O grau de separação de responsabilidades das componentes sob teste incide sobr
 
 ### Compreensibilidade
 
-Compreensibilidade corresponde ao grau de legibilidade da componente sob teste, por clareza intrínseca ou documentação disponível.
+Compreensibilidade corresponde ao grau de legibilidade da componente sob teste, por clareza intrínseca ou documentação disponível. Em geral, tudo se encontra com nomes compreensíveis e fáceis de perceber a sua finalidade. Apesar de não ser um projeto com elevado número de contribuidores, este é usado como componente em vários outros e por isso toma grande importância cria-lo de uma maneira clara e concisa. Podemos também ver que o código se encontra bem documentado a partir do respetivo [javadoc](https://zxing.github.io/zxing/apidocs/). Enquanto que a documentação não expande na explicação dos vários códigos diferentes, achamos isso adequado uma vez que eles podem ter elevado grau de complexidade e é necessário manter uma documentação breve mas que explique o suficiente. 
 
 ### Heterogeneidade
 
-A Heterogeneidade determina o grau em que o uso de diversas tecnologias requer diversos casos de teste.
+A heterogeneidade determina o grau em que o uso de diversas tecnologias requer diversos casos de teste. O projeto em si não faz uso de um número elevado de tecnologias diferentes pois há o objetivo de o manter o mais simples possível, tal como provado pelo sua [página de dependências](https://zxing.github.io/zxing/dependency-management.html). A partir desta também podemos ver que se recorre a JUnit de maneira a facilitar a realização de testes unitários. Independentemente de tal, é necessário a realização de um elevado número de casos de teste pois a aplicação pode ler variados tipos de códigos diferentes associados a diferentes tipos de tecnologia.
 
 ## Estatísticas de Teste
 
@@ -54,7 +54,7 @@ Para obter as estatísticas de teste deste projecto foram utilizadas as ferramen
 
 ###Número de testes 
 
-Através da utilização da ferramenta JUnit verificámos a execução de todos os testes, sendo que todos os testes correram correctamente à exceção de três que foram ignorados, isto porque durante a compilação do programa um dos ficheiros contidos no programa não tinha as permissões necessárias. \n
+Através da utilização da ferramenta JUnit verificámos a execução de todos os testes, sendo que todos os testes correram correctamente à exceção de três que foram ignorados, isto porque durante a compilação do programa um dos ficheiros contidos no programa não tinha as permissões necessárias. 
 O projecto usufrui de 408 testes, um número que achamos considerável aquando o tamaho do projecto.
 
 ![Program Tests in JUnit](/ESOF-docs/resources/JUnitTests.png)
