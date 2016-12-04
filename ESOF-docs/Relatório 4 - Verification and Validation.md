@@ -63,7 +63,7 @@ O projecto usufrui de 408 testes, um número que achamos considerável aquando o
 
 Utilizando EclEmma pudemos observar que os teste efectuados cobrem 93.8% do código total. Devido a este facto achamos que o código está suficientemente coberto pelos testes visto que estes abrangem mais que 80% do código.
 
-![Coverage in EclEmma](/ESOF-docs/resources/coverage.png)
+![Coverage in EclEmma](/ESOF-docs/resources/Coverage.png)
 
 ###Outras estatísticas
 
