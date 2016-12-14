@@ -1,8 +1,20 @@
 # Evolução de Software
 
-## Descrição da Feature
+**Conteúdos**
+- [Introdução](#introdução)
+- [Identificação da Feature](#identificação-da-feature)
+- [Desenvolvimento da Feature](#desenvolvimento-da-feature)
+- [Pull Request](#pull-request)
+- [Contribuição do Grupo](#contribuição-do-grupo)
 
-## Evolução da Feature
+
+## Introdução
+
+Uma vez que o zxing é um projeto já maioritariamente terminado, há poucos problemas e tarefas a desenvolver. No entanto, o projeto está aberto à implementação de novas funcionalidades, desde que estas sejam relevantes. No presente relatório serão descritos os processos de identificação, desenvolvimento e submissão de uma nova Feature no projeto zxing. 
+
+## Identificação da Feature
+
+## Desenvolvimento da Feature
 
 ## Pull Request
 
