@@ -6,6 +6,7 @@
 - [Desenvolvimento da Feature](#desenvolvimento-da-feature)
 - [Pull Request](#pull-request)
 - [Contribuição do Grupo](#contribuição-do-grupo)
+- [Anexo(Análise Better Code Hub)](https://github.com/ruivop/zxing/blob/master/ESOF-docs/Documentos%20de%20apoio/Better%20Code%20Hub.pdf)
 
 
 ## Introdução
