@@ -16,23 +16,23 @@
 
 package com.google.zxing.client.android.history;
 
-import android.database.sqlite.SQLiteException;
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.Result;
-import com.google.zxing.client.android.Intents;
-import com.google.zxing.client.android.PreferencesActivity;
-import com.google.zxing.client.android.result.ResultHandler;
-
 import android.app.Activity;
 import android.content.ContentValues;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.util.Log;
+
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.Result;
+import com.google.zxing.client.android.Intents;
+import com.google.zxing.client.android.PreferencesActivity;
+import com.google.zxing.client.android.result.ResultHandler;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -98,7 +98,7 @@ public final class HistoryManager {
     Cursor cursor = null;
     try {
       db = helper.getReadableDatabase();
-      cursor = db.query(DBHelper.TABLE_NAME, COLUMNS, null, null, null, null, DBHelper.TIMESTAMP_COL + " DESC");
+      cursor = db.query(DBHelper.TABLE_NAME, COLUMNS, null, null, null, null, HistoryActivity.typeOrder + HistoryActivity.backwards);
       while (cursor.moveToNext()) {
         String text = cursor.getString(0);
         String display = cursor.getString(1);
