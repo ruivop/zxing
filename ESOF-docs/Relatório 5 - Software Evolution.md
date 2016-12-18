@@ -51,7 +51,7 @@ Cada uma destas variáveis era alterada pelo respetivo botão, para um valor que
 
 ## Pull Request
 
-A funcionalidade implementada foi enviada através do pull request /////. Uma vez aprovada esta pull request, a funcionalidade implementada passa a fazer parte do código "oficial" do projeto.
+A funcionalidade implementada foi enviada através do pull request [#1](https://github.com/ruivop/zxing/pull/1). Uma vez aprovada esta pull request, a funcionalidade implementada passa a fazer parte do código "oficial" do projeto.
 
 ##Contribuição do Grupo
 * [José Costa](https://github.com/zecst19): 25%
