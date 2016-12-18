@@ -48,13 +48,11 @@ public final class HistoryActivity extends ListActivity {
   private HistoryManager historyManager;
   private ArrayAdapter<HistoryItem> adapter;
   private CharSequence originalTitle;
-  public static String backwards = " DESC";
-  public static String typeOrder = DBHelper.TIMESTAMP_COL;
-
+  
   @Override
   protected void onCreate(Bundle icicle) {
     super.onCreate(icicle);
-    this.historyManager = new HistoryManager(this);
+    this.historyManager = new HistoryManager(this);  
     adapter = new HistoryItemAdapter(this);
     setListAdapter(adapter);
     View listview = getListView();
@@ -157,22 +155,6 @@ public final class HistoryActivity extends ListActivity {
         });
         builder.setNegativeButton(R.string.button_cancel, null);
         builder.show();
-        break;
-      case R.id.menu_history_backwards:
-        if(backwards == " DESC"){
-          backwards = " ASC";
-        } else {
-          backwards = " DESC";
-        }
-        reloadHistoryItems();
-        break;
-      case R.id.menu_history_alfabetic_date:
-        if(typeOrder == DBHelper.TIMESTAMP_COL){
-          typeOrder = DBHelper.TEXT_COL;
-        } else {
-          typeOrder = DBHelper.TIMESTAMP_COL;
-        }
-        reloadHistoryItems();
         break;
       default:
         return super.onOptionsItemSelected(item);
