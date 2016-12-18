@@ -14,7 +14,13 @@ Uma vez que o zxing é um projeto já maioritariamente terminado, há poucos pro
 
 ## Identificação da Feature
 
+Existem duas formas de selecionar uma nova feature a adicionar ao projeto, ou através da criação de algo totalmente novo  de raíz, ou através da resolução de um issue pré-existente. Devido à natureza do projeto (quase totalmente finalizado e com poucos issues) decidimos optar pela primeira opção.
+
+Como nova feature a implementar escolhemos adicionar, ao histórico de análises um botão de ordenação desse mesmo histórico, sendo agora possível ordenar tanto cronologicamente como alfabéticamente.
+
 ## Desenvolvimento da Feature
+
+
 
 ## Pull Request
 
