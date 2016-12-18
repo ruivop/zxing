@@ -47,7 +47,7 @@ Com os botões feitos e os respetivos os respetivos estados que eram ativados qu
 
 Cada uma destas variáveis era alterada pelo respetivo botão, para um valor que era entendido pela *query*. Assim na *query* só precisava de haver uma concatenação das duas variáveis e assim ordenar os items do histórico, segundo o desejado.
 
-
+ ![historyscreen](/ESOF-docs/resources/history.png)  ![historyoptions](/ESOF-docs/resources/historyoptions.png)
 
 ## Pull Request
 
