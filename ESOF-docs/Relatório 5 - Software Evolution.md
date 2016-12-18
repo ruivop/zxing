@@ -21,6 +21,29 @@ Como nova feature a implementar escolhemos adicionar, ao histórico de análises
 
 ## Desenvolvimento da Feature
 
+### Identificação do código chave para a implementação da feature
+Pela análise já anteriormente feita, já ficamos com uma bagagem suficiente para identificar o código que pretendíamos alterar. A aplicação android utiliza Activities para mostrar toda parte gráfica da aplicação. A activity principal (CaptureActivity) é responsável por iniciar o histórico (abrir a base de dados).
+
+
+ 
+No entanto é na Activity do histórico (HistoryActivity), que a lista dos elementos dos elementos do histórico aparece. Logo seria aí que teríamos que acrescentar o código da nossa feature.
+ 
+ 
+ 
+A partir da análise do código da classe HistoryActivity percebemos o método que atualizava o histórico era o método builHistoryItems().
+ 
+ 
+ 
+Neste método a forma era feita uma query, com a ordenação pretendida, á base de dados. Logo seria aí que teríamos de mudar o código para pôr a nova feature. No entanto também são precisos botões para ordenar de acordo com o desejado. No android os layouts definem os sítios onde estão os botões e outros elementos visuais. Como tal para acrescentar um botão foi apenas preciso localizar o layout do menu do histórico. No entanto ainda teríamos que ter listeners que recebessem a informação de quando estes foram carregados, para desencadear o processo de atualização. 
+
+A partir da análise do código encontramos a solução que residia no método onOptionsItemSelected(MenuItem item), que recebia numa máquina de estados qual o botão que foi carregado.
+
+### Solução encontrada
+
+Com os botões feitos e os respetivos os respetivos estados que eram ativados quando esse botão era carregado, faltava agora encontrar uma solução que permitisse fazer com que cada um desses estados comunicasse com a query de ordenação. Para tal, foram criadas duas variáveis publicas e estáticas. Uma para a ordenação alfabeticamente->cronologicamente/ cronologicamente -> alfabeticamente e outro para poder alterar a ordem (inversa ou não).
+
+Cada uma destas variáveis era alterada pelo respetivo botão, para um valor que era entendido pela query. Assim na query só precisava de haver uma concatenação das duas variáveis e assim ordenar os items do histórico, segundo o desejado.
+
 
 
 ## Pull Request
