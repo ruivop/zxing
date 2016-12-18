@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (C) 2014 ZXing authors
 
@@ -140,4 +140,6 @@
   <string name="result_wifi">Found WLAN Configuration</string>
   <string name="sbc_name">Google Book Search</string>
   <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+  <string name="history_backwards">Sort History Backwards</string>
+  <string name="menu_history_alfabetic_date">Sort alphabetically or chronologically</string>
 </resources>
