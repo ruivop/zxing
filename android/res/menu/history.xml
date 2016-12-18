@@ -15,14 +15,24 @@
  limitations under the License.
  -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-  <item android:id="@+id/menu_history_send"
-        android:title="@string/history_send"
-        android:icon="@android:drawable/ic_menu_share"
-        android:orderInCategory="1"
-        android:showAsAction="withText|ifRoom"/>
   <item android:id="@+id/menu_history_clear_text"
-        android:title="@string/history_clear_text"
-        android:icon="@android:drawable/ic_menu_delete"
-        android:orderInCategory="2"
-        android:showAsAction="withText|ifRoom"/>
+      android:title="@string/history_clear_text"
+      android:icon="@android:drawable/ic_menu_delete"
+      android:orderInCategory="1"
+      android:showAsAction="always" />
+  <item android:id="@+id/menu_history_send"
+      android:title="@string/history_send"
+      android:icon="@android:drawable/ic_menu_share"
+      android:orderInCategory="2"
+      android:showAsAction="withText|ifRoom"/>
+  <item android:id="@+id/menu_history_backwards"
+      android:title="@string/history_backwards"
+      android:icon="@android:drawable/ic_menu_rotate"
+      android:orderInCategory="3"
+      android:showAsAction="withText|ifRoom"/>
+  <item android:id="@+id/menu_history_alfabetic_date"
+      android:title="@string/menu_history_alfabetic_date"
+      android:icon="@android:drawable/ic_menu_sort_alphabetically"
+      android:orderInCategory="3"
+      android:showAsAction="withText|ifRoom"/>
 </menu>
