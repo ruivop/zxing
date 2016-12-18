@@ -17,7 +17,7 @@ Uma vez que o zxing é um projeto já maioritariamente terminado, há poucos pro
 
 Existem duas formas de selecionar uma nova feature a adicionar ao projeto, ou através da criação de algo totalmente novo  de raíz, ou através da resolução de um issue pré-existente. Devido à natureza do projeto (quase totalmente finalizado e com poucos issues) decidimos optar pela primeira opção.
 
-Como nova feature a implementar escolhemos adicionar, ao histórico de análises um botão de ordenação desse mesmo histórico, sendo agora possível ordenar tanto cronologicamente como alfabéticamente.
+Como nova feature a implementar escolhemos adicionar, ao histórico de análises um botão de ordenação desse mesmo histórico, sendo agora possível ordenar tanto cronologicamente como alfabéticamente e também inverter a ordem dos resultados.
 
 ## Desenvolvimento da Feature
 
@@ -25,6 +25,7 @@ Como nova feature a implementar escolhemos adicionar, ao histórico de análises
 
 ## Pull Request
 
+A funcionalidade implementada foi enviada através do pull request /////. Uma vez aprovada esta pull request, a funcionalidade implementada passa a fazer parte do código "oficial" do projeto.
 
 ##Contribuição do Grupo
 * [José Costa](https://github.com/zecst19): 25%
